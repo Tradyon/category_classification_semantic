@@ -58,6 +58,7 @@ dependencies = [
     { name = "openai" },
     { name = "pydantic" },
     { name = "rapidfuzz" },
+    { name = "tqdm" },
     { name = "weaviate-client" },
 ]
 
@@ -68,6 +69,7 @@ requires-dist = [
     { name = "openai", specifier = ">=2.11.0" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "rapidfuzz", specifier = ">=3.14.0" },
+    { name = "tqdm", specifier = ">=4.67.1" },
     { name = "weaviate-client", specifier = ">=4.17.0" },
 ]
 

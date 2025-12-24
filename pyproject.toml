@@ -10,5 +10,6 @@ dependencies = [
     "openai>=2.11.0",
     "pydantic>=2.12.5",
     "rapidfuzz>=3.14.0",
+    "tqdm>=4.67.1",
     "weaviate-client>=4.17.0",
 ]

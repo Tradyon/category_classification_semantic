@@ -14,6 +14,7 @@ import dotenv
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
+from tqdm import tqdm
 
 
 class HSRow(BaseModel):
@@ -415,7 +416,6 @@ def gemini_extract_hs_rows(
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json",
                         response_schema=list[HSRow],
-                        temperature=0,
                         max_output_tokens=max_output_tokens,
                     ),
                 )
@@ -516,7 +516,20 @@ def main() -> int:
     prior_rows_by_pdf = load_rows_by_pdf(args.pages_jsonl) if args.resume else {}
     token_totals: dict[str, int] = {}
 
+    total_pages_to_process = 0
+    for pdf_path in pdfs:
+        pdf_key = str(pdf_path)
+        page_count = get_pdf_page_count(pdf_path)
+        start = max(1, args.from_page)
+        end = page_count if args.to_page <= 0 else min(page_count, args.to_page)
+        if args.max_pages > 0:
+            end = min(end, start + args.max_pages - 1)
+        for page in range(start, end + 1):
+            if (pdf_key, page) not in processed:
+                total_pages_to_process += 1
+
     total_pages_done = 0
+    pbar = tqdm(total=total_pages_to_process, desc="Extract pages", unit="page", file=sys.stderr)
     for pdf_path in pdfs:
         country = infer_country(pdf_path)
         desc_by_digits: dict[str, str] = {}
@@ -601,6 +614,9 @@ def main() -> int:
                 )
 
             total_pages_done += 1
+            pbar.set_description(f"{pdf_path.name}")
+            pbar.update(1)
+            pbar.set_postfix(rows=len(rows))
             if usage and any(usage.get(k, 0) for k in ("prompt_tokens", "completion_tokens", "total_tokens")):
                 _eprint(
                     f"  page {page}: {len(rows)} rows | tokens p={usage.get('prompt_tokens', 0)} "
@@ -612,6 +628,7 @@ def main() -> int:
             if args.throttle_seconds > 0:
                 time.sleep(args.throttle_seconds)
 
+    pbar.close()
     _eprint(f"Done. Processed {total_pages_done} pages.")
     if token_totals:
         _eprint(

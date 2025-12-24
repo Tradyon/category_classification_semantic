@@ -1,0 +1,48 @@
+{"id": "mesh_size", "model": "gemini-2.0-flash", "keywords": ["mesh_size", "mesh size", "mesh", "size", "particle size", "screen size", "sieve size"]}
+{"id": "onion_color", "model": "gemini-2.0-flash", "keywords": ["onion_color", "onion color", "onion", "color", "colour", "red onion", "yellow onion", "white onion"]}
+{"id": "onion_form", "model": "gemini-2.0-flash", "keywords": ["onion_form", "onion form", "onion", "form", "whole", "diced", "sliced", "powder", "flakes"]}
+{"id": "organic_certification", "model": "gemini-2.0-flash", "keywords": ["organic_certification", "organic certification", "organic", "certification", "certified organic", "bio", "biologique"]}
+{"id": "origin_country", "model": "gemini-2.0-flash", "keywords": ["origin_country", "origin country", "country of origin", "origin", "country", "产地", "pays d'origine"]}
+{"id": "processing_method", "model": "gemini-2.0-flash", "keywords": ["processing_method", "processing method", "processing", "method", "processed", "treatment", "transformación", "traitement"]}
+{"id": "quality_grade", "model": "gemini-2.0-flash", "keywords": ["quality_grade", "quality grade", "quality", "grade", "class", "standard", "calidad", "qualité"]}
+{"id": "toasting_level", "model": "gemini-2.0-flash", "keywords": ["toasting_level", "toasting level", "toasting", "level", "toast", "roasted", "roasting", "lightly toasted", "darkly toasted"]}
+{"id": "Asta", "model": "gemini-2.0-flash", "keywords": ["Asta"]}
+{"id": "Botanical_Name", "model": "gemini-2.0-flash", "keywords": ["Botanical_Name", "scientific name", "latin name", "नाम वनस्पति"]}
+{"id": "Certifications", "model": "gemini-2.0-flash", "keywords": ["Certifications", "certification", "certificate", "certified", "प्रमाणन", "certificación", "certification"]}
+{"id": "Coffee_Variety", "model": "gemini-2.0-flash", "keywords": ["Coffee_Variety", "coffee type", "coffee strain", "coffee varietal", "variedad de café", "variété de café"]}
+{"id": "Color", "model": "gemini-2.0-flash", "keywords": ["Color", "colour", "hue", "shade", "tint", "couleur", "color"]}
+{"id": "Crop_Year", "model": "gemini-2.0-flash", "keywords": ["Crop_Year", "harvest year", "year", "vintage"]}
+{"id": "Cup_Score", "model": "gemini-2.0-flash", "keywords": ["Cup_Score", "cupping score", "score", "rating"]}
+{"id": "Defect_Percentage", "model": "gemini-2.0-flash", "keywords": ["Defect_Percentage", "defect rate", "percentage defects", "defect %"]}
+{"id": "Density", "model": "gemini-2.0-flash", "keywords": ["Density", "specific gravity", "bulk density", "घनत्व"]}
+{"id": "Headless_Percentage", "model": "gemini-2.0-flash", "keywords": ["Headless_Percentage", "headless %", "broken percentage"]}
+{"id": "Heat_Level", "model": "gemini-2.0-flash", "keywords": ["Heat_Level", "spice level", "heat", "spiciness", "pungency"]}
+{"id": "Impurities", "model": "gemini-2.0-flash", "keywords": ["Impurities", "foreign matter", "contamination", "adulterants", "शुद्धता"]}
+{"id": "Intended_Use", "model": "gemini-2.0-flash", "keywords": ["Intended_Use", "use", "application", "purpose"]}
+{"id": "Light_Berries", "model": "gemini-2.0-flash", "keywords": ["Light_Berries", "immature berries", "underripe berries"]}
+{"id": "Mesh_Size", "model": "gemini-2.0-flash", "keywords": ["Mesh_Size", "screen size", "mesh", "size"]}
+{"id": "Moisture_Content", "model": "gemini-2.0-flash", "keywords": ["Moisture_Content", "moisture", "water content", "humidity", "नमी"]}
+{"id": "Organic", "model": "gemini-2.0-flash", "keywords": ["Organic", "organique", "biologique", "जैविक", "orgánico"]}
+{"id": "Origin_Country", "model": "gemini-2.0-flash", "keywords": ["Origin_Country", "country of origin", "origin", "source country", "pays d'origine", "país de origen"]}
+{"id": "Packaging_Type", "model": "gemini-2.0-flash", "keywords": ["Packaging_Type", "packaging", "package type", "type of packaging"]}
+{"id": "Physical_Form", "model": "gemini-2.0-flash", "keywords": ["Physical_Form", "form", "shape", "consistency", "condition"]}
+{"id": "Processing_Method", "model": "gemini-2.0-flash", "keywords": ["Processing_Method", "processing", "method", "processed"]}
+{"id": "Product_Type", "model": "gemini-2.0-flash", "keywords": ["Product_Type", "product", "type", "category", "kind"]}
+{"id": "Purity", "model": "gemini-2.0-flash", "keywords": ["Purity", "pure", "purity", "cleanliness", "বিশুদ্ধতা", "शुद्धता"]}
+{"id": "Quality", "model": "gemini-2.0-flash", "keywords": ["Quality", "quality", "grade", "standard", "qualité", "calidad"]}
+{"id": "Quality_Grade", "model": "gemini-2.0-flash", "keywords": ["Quality_Grade", "quality", "grade", "standard", "qualité", "calidad"]}
+{"id": "Roast_Level", "model": "gemini-2.0-flash", "keywords": ["Roast_Level", "roast", "level", "roasting", "torrefacción"]}
+{"id": "Scientific_Name", "model": "gemini-2.0-flash", "keywords": ["Scientific_Name", "scientific", "name", "botanical", "latin"]}
+{"id": "Scoville_Heat_Units", "model": "gemini-2.0-flash", "keywords": ["Scoville_Heat_Units", "SHU", "Scoville", "heat", "pungency"]}
+{"id": "Screen_Size", "model": "gemini-2.0-flash", "keywords": ["Screen_Size", "screen", "size", "mesh", "screen size"]}
+{"id": "Shu", "model": "gemini-2.0-flash", "keywords": ["Shu", "Scoville_Heat_Units", "Scoville", "heat", "pungency"]}
+{"id": "Size", "model": "gemini-2.0-flash", "keywords": ["Size", "size", "dimension", "large", "small", "taille", "tamaño"]}
+{"id": "Specific_Gravity", "model": "gemini-2.0-flash", "keywords": ["Specific_Gravity", "specific gravity", "density", "SG"]}
+{"id": "Stem", "model": "gemini-2.0-flash", "keywords": ["Stem", "stem", "stalk", "peduncle", "tige", "tallo"]}
+{"id": "Sterilization_Method", "model": "gemini-2.0-flash", "keywords": ["Sterilization_Method", "sterilization", "method", "sterile"]}
+{"id": "Use", "model": "gemini-2.0-flash", "keywords": ["Use", "use", "application", "purpose", "usage", "utilization"]}
+{"id": "Variety", "model": "gemini-2.0-flash", "keywords": ["Variety", "variety", "type", "cultivar", "strain", "variedad", "variété"]}
+{"id": "Volatile_Oil_Content", "model": "gemini-2.0-flash", "keywords": ["Volatile_Oil_Content", "volatile oil", "oil content", "essential oil"]}
+{"id": "Volatile_Oil_Percentage", "model": "gemini-2.0-flash", "keywords": ["Volatile_Oil_Percentage", "volatile oil", "oil percentage", "essential oil"]}
+{"id": "cut_size", "model": "gemini-2.0-flash", "keywords": ["cut_size", "cut", "size", "diced", "sliced", "minced"]}
+{"id": "irradiation_status", "model": "gemini-2.0-flash", "keywords": ["irradiation_status", "irradiation", "irradiated", "radiation"]}

@@ -41,7 +41,6 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
 nosetests.xml
 coverage.xml
 *.cover
@@ -131,3 +130,7 @@ dmypy.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Local frontend artifacts
+.web_frontend.log
+.web_frontend.pid

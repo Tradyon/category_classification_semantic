@@ -167,7 +167,6 @@ def call_text_llm_json(
     kwargs: dict[str, Any] = {
         "model": model,
         "messages": messages,
-        "temperature": 0,
         "max_tokens": max_tokens,
         "timeout": timeout,
         "response_format": {
@@ -461,7 +460,6 @@ def call_deepseek_ocr(
             resp = client.chat.completions.create(
                 model=model,
                 messages=messages,
-                temperature=0,
                 max_tokens=max_tokens,
                 stream=False,
             )
@@ -924,7 +922,7 @@ def main() -> int:
     parser.add_argument(
         "--llm-model",
         type=str,
-        default="gemini-2.0-flash",
+        default="gemini-3-flash-preview",
         help="Model for description generation (OpenRouter or Gemini).",
     )
     parser.add_argument(
