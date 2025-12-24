@@ -1,0 +1,14 @@
+[project]
+name = "category-classification-semantic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.55.0",
+    "openai>=2.11.0",
+    "pydantic>=2.12.5",
+    "rapidfuzz>=3.14.0",
+    "weaviate-client>=4.17.0",
+]
