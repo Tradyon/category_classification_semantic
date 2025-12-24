@@ -5,7 +5,7 @@
 - Install deps: `uv sync` (or `pip install -e .`).
 
 ## Extract HS codes
-- Gemini direct:  
+- Gemini direct: (need not redo, just use the cache)  
   `uv run extract_hs_codes_gemini.py --input "HS Code" --pages-jsonl outputs/hs_pages_gemini.jsonl --rows-csv outputs/hs_rows_gemini.csv`  
   Uses Gemini structured output, inherits parent headings for child rows.
 
